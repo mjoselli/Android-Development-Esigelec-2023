@@ -1,10 +1,10 @@
 package com.pucpr.myapplication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var editText:EditText
@@ -31,5 +31,7 @@ class MainActivity : AppCompatActivity() {
         }else if(number < 25){
             textView.text = "Minor number "
         }
+
+
     }
 }
